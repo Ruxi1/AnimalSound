@@ -16,15 +16,6 @@ namespace AnimalSound
             this.name = name;
             this.sound = sound;
         }
-        public string GetName(string name)
-        {
-            return name;
-        }
-        public string GetSound(string sound)
-        {
-            return sound;
-        }
-
         public void MakesSound()
         {
             Console.WriteLine("{0} makes sound: {1}",this.name,this.sound);
